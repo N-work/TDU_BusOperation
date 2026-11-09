@@ -1,0 +1,170 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #1a73e8;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    background: #f8f9fa;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 3px solid #e0e0e0;
+}
+
+.controls label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.controls input[type="date"] {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.info-box {
+    background: #e8f0fe;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.holiday-box {
+    background: #fce8e6;
+    color: #c5221f;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #fad2cf;
+    font-weight: bold;
+}
+
+.error-box {
+    background: #fce8e6;
+    color: #c5221f;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid #fad2cf;
+    font-weight: bold;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    background: #fff;
+    border: 3px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 18px;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge {
+    background: #1a73e8;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.sub-text {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.timetable {
+    font-size: 13px;
+    margin-top: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px dashed #eee;
+    padding-top: 6px;
+    flex-grow: 1;
+}
+
+.timetable div {
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.note {
+    color: #d93025;
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+.buttonmargine {
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.button {
+    background: #fff;
+    border: 3px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}

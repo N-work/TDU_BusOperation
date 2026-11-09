@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>TDUバス運用</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>東京電機大学 鳩山キャンパス バス運用</h1>
+    <small>※ロイヤル交通所属の車両のみ表示します</small>
+    
+    <div class="controls">
+        <label for="target-date">確認したい日付：</label>
+        <input type="date" id="target-date" min="2026-10-02">
+        <span style="font-size: 13px; color: #666;">(基準日: 2026年10月2日以降を選択できます)</span>
+    </div>
+
+    <div id="message-area"></div>
+    <div id="loading" class="loading" style="display: none;">データを取得しています...</div>
+    <div id="assignment-grid" class="grid"></div>
+
+    <div class="buttonmargine">
+        <a href="Takasaka.html" id="Takasaka" class="button">高坂便</a>
+        <a href="Kitasakado.html" id="Takasaka" class="button">北坂戸便</a>
+        <a href="Kumagaya.html" id="Takasaka" class="button">熊谷便</a>
+        <a href="Konosu.html" id="Takasaka" class="button">鴻巣便</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
