@@ -87,6 +87,12 @@ h1 {
     gap: 16px;
 }
 
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+}
+
 .card {
     background: #fff;
     border: 3px solid #e0e0e0;
@@ -167,4 +173,19 @@ h1 {
     font-weight: bold;
     color: #333;
     text-decoration: none;
+}
+
+.timetable {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.timetable .run-row, 
+.timetable div {
+    display: grid;
+    /* 例：1列目(時刻)は60px、2列目(行先など)は1fr(可変)、3列目(車両など)は100px、4列目は右寄せ など */
+    grid-template-columns: 120px 100px 150px;
+    align-items: center;
+    gap: 10px;
 }
