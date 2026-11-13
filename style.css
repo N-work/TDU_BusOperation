@@ -184,7 +184,7 @@ h1 {
 .timetable .run-row, 
 .timetable div {
     display: grid;
-    grid-template-columns: 120px 100px 150px;
+    grid-template-columns: 140px 120px 150px;
     align-items: center;
     gap: 10px;
 }
